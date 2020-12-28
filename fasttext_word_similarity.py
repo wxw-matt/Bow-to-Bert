@@ -12,7 +12,7 @@ else:
     word3 = args[3]
 
 wordVectorLength = 300
-filename = os.environ["PRE_TRAINED_HOME"] + '/fasttext/crawl-300d-2M-subword.vec'
+filename = os.environ["PRE_TRAINED_HOME"] + '/crawl-300d-2M-subword.vec'
 words = [word1, word2, word3]
 wordvectors = []
 for word in words:

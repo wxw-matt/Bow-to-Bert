@@ -16,7 +16,7 @@ for i,sentence in enumerate(sentences):
     words.update(words_by_sentence[i])
 
 print("Loading word vectors...this will take a while")
-filename = os.environ["PRE_TRAINED_HOME"] + '/fasttext/crawl-300d-2M-subword.vec'
+filename = os.environ["PRE_TRAINED_HOME"] + '/crawl-300d-2M-subword.vec'
 f = open(filename, "r", encoding='utf-8')
 lines = f.readlines()
 for i,line in enumerate(lines):
